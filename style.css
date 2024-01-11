@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-image:url("jeffrey-francisco-_Ei9f33bQ1A-unsplash.jpg");
+    background-size: cover;
+}
+.navbar {
+height :60px;
+background-color: rgb(41, 41, 110);
+color :aliceblue;
+display:flex;
+align-item:center;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo {
+   background-image:url("C:\Users\KIIT\OneDrive\Desktop\AICTE INTERNSHP\sj logo.png");
+   height:50px;
+   width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.one{
+    color:#ccc;
+    font-size: 1.5rem;
+    margin-left: 15px;
+
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+.nav_search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav_search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+width:100%;
+font-size: 1rem;
+border:none;
+}
+.search_icon{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-third{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav_cart i {
+     font-size: 30px;
+}
+.nav_cart{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color: #474949;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p {
+    display:inline;
+    margin-left:15px;
+} 
+.panel-option{
+    width:70%;
+    font-size: 0.85rem;
+   
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.add-first{
+    color:aliceblue;
+    font-size:0.85rem;
+    margin-left:15px;
+
+}
+.add-sec{
+    font-size:1rem;
+    margin-left:3px;
+
+}
+.add-icon{
+    display:flex;
+    align-item:center;
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin: 1em;
+    text-align: center;
+    width: 300px;
+}
+
+.pricing-card h2 {
+    color: #333;
+}
+
+.pricing-card p {
+    color: #666;
+}
+
+.pricing-card .price {
+    font-size: 1.5em;
+    color: #ff9900;
+    margin: 1em 0;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 1em;
+}
